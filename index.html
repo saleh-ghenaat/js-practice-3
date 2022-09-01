@@ -1,0 +1,30 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>calculator</title>
+</head>
+
+<body class="flex-row align-items-center justify-content-center">
+    <div class="box flex-column">
+        <label class="font-size-16" for="num-one">First number : </label>
+        <input id="num-one" type="text" class="input ">
+        <label class="font-size-16" for="num-two">Seconde number :</label>
+        <input id="num-two" type="text" class="input">
+        <select id="select">
+            <option value="">Select the operator</option>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <button onclick="Computing()">Computing</button>
+        <p id="valu1" class="font-size-16"></p>
+    </div>
+</body>
+<script src="./app.js"></script>
+
+</html>

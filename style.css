@@ -1,0 +1,54 @@
+/****** reset *****/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+
+/***** utils *****/
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-start{
+    justify-content: start;
+}
+.justify-content-end{
+    justify-content: end;
+}
+.justify-content-space-around{
+    justify-content: space-around;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-end{
+    align-items: flex-end;
+}
+.align-items-start{
+    align-items: flex-start;
+}
+.font-size-16{
+    font-size: 1.6rem;
+}
+
+/****** style ******/
+.box{
+    width: 30rem;
+    height: 30rem;
+    gap: 1rem;
+}
